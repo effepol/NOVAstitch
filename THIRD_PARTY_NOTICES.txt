@@ -1,0 +1,56 @@
+﻿NOVAstitch - THIRD-PARTY SOFTWARE / COMPONENTI DI TERZI
+=======================================================
+
+NOVAstitch contains or uses the components below. They remain the property of
+their authors and are used under their own licenses, whose full texts are in
+this folder.
+
+NOVAstitch contiene o usa i componenti elencati qui sotto. Restano di proprietà
+dei rispettivi autori e sono usati secondo le loro licenze, i cui testi
+completi sono in questa cartella.
+
+
+1. Qt 6, through PySide6 and shiboken6 (version 6.12.0)
+-------------------------------------------------------
+Copyright (C) The Qt Company Ltd. and other contributors.
+License: GNU Lesser General Public License version 3 (LGPLv3).
+Texts: LGPL-3.0.txt and GPL-3.0.txt (the LGPLv3 is an addition to the GPLv3).
+
+Qt is used as dynamically linked shared libraries. They are shipped as separate
+files inside the program folder, so you can replace them with your own
+compatible build of the same Qt / PySide6 version.
+
+Source code:
+  Qt:      https://download.qt.io/official_releases/qt/
+  PySide6: https://code.qt.io/cgit/pyside/pyside-setup.git/
+  Other components bundled with Qt and their licenses:
+           https://doc.qt.io/qt-6/licenses-used-in-qt.html
+
+NOVAstitch is not affiliated with, or endorsed by, The Qt Company.
+
+Qt è usato come insieme di librerie condivise, distribuite come file separati
+nella cartella del programma: puoi sostituirle con una tua versione compatibile
+della stessa versione di Qt / PySide6. Il codice sorgente è disponibile agli
+indirizzi indicati sopra.
+
+
+2. pyembroidery (version 1.5.1)
+-------------------------------
+Reading and writing of embroidery file formats.
+Author: Tatarize - https://github.com/EmbroidePy/pyembroidery
+License: MIT. Text: pyembroidery-MIT.txt
+
+
+3. Python (version 3.13)
+------------------------
+The Python runtime included in the program.
+Copyright (c) Python Software Foundation. All rights reserved.
+License: Python Software Foundation License. Text: Python-PSF-License.txt
+https://www.python.org
+
+
+4. PyInstaller (build tool)
+---------------------------
+Used to build the executable. Its bootloader is licensed under the GPLv2 or
+later with a special exception that allows the programs it builds to be
+distributed under any license. https://pyinstaller.org
