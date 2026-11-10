@@ -30,7 +30,6 @@ Il manuale (italiano e inglese) è nel programma, menu **Manuale**.
 
 **Licenza** — uso libero, anche commerciale; ridistribuzione gratuita solo del programma completo e non modificato. Vedi [LICENZA_it.txt](LICENZA_it.txt). Componenti di terzi (Qt/PySide6, pyembroidery, Python): [licenze/](licenze/THIRD_PARTY_NOTICES.txt).
 
-Segnalazioni e richieste: federico@poletticentrocucito.it
 
 ---
 
@@ -59,14 +58,4 @@ The manual (Italian and English) is in the app, **Manual** menu.
 
 **License** — free to use, including commercially; free redistribution of the complete, unmodified program only. See [LICENSE_en.txt](LICENSE_en.txt) (the Italian text prevails). Third-party components (Qt/PySide6, pyembroidery, Python): [licenze/](licenze/THIRD_PARTY_NOTICES.txt).
 
-Feedback and requests: federico@poletticentrocucito.it
-
----
-
-**Checksums SHA-256**
-```
-NOVAstitch-Setup-0.1.exe  <incolla qui / paste here>
-NOVAstitch-0.1.dmg        <incolla qui / paste here>
-```
-
-*NOVAstitch © 2026 Poletti Centro Cucito, Clusone (BG), Italy. File-format and brand names belong to their owners; NOVAstitch is not affiliated with any of them. Software provided "as is", without warranty.*
+ File-format and brand names belong to their owners; NOVAstitch is not affiliated with any of them. Software provided "as is", without warranty.*
