@@ -1,0 +1,43 @@
+COSTRUIRE NOVAstitch PER MAC (file .dmg)
+========================================
+
+Serve un Mac (il tuo Apple Silicon va benissimo) con internet. Si fa una volta
+per versione. Il risultato e' installer_output/NOVAstitch-0.1.dmg.
+
+PASSO 1 - Python (una volta sola)
+  Scarica "Python 3.13" da https://www.python.org/downloads/macos/
+  (il pacchetto "macOS 64-bit universal2 installer") e installalo.
+  Non usare quello gia' presente nel Mac: e' troppo vecchio.
+
+PASSO 2 - Copia la cartella del progetto sul Mac
+  Copia tutta la cartella NOVAstitch (quella dello zip) sulla Scrivania.
+
+PASSO 3 - Lancia la costruzione
+  Apri l'app "Terminale". Scrivi "cd " (con lo spazio), trascina la cartella
+  NOVAstitch nella finestra del Terminale, premi Invio. Poi scrivi:
+
+      bash costruisci_mac.command
+
+  e premi Invio. Ci vogliono alcuni minuti. Fa da solo: ambiente, componenti,
+  programma, firma "ad hoc" gratuita, prova di avvio, file .dmg.
+  (Se macOS chiede di installare "Command Line Tools", accetta e rilancia.)
+
+PASSO 4 - Prova
+  Apri il .dmg, trascina NOVAstitch in Applicazioni e aprilo. La prima volta
+  macOS avvisa che non puo' verificare lo sviluppatore (vedi LEGGIMI_MAC.txt,
+  e' la stessa procedura "Apri comunque" che spieghi nel manuale).
+
+NOTE
+ - Requisito minimo del programma: macOS 14 (Sonoma) o piu' recente, perche'
+   cosi' e' fatto PySide6 6.12.0. Per Mac piu' vecchi: in requirements.txt
+   sostituisci 6.12.0 con 6.10.3 (macOS 13) o 6.9.3 (macOS 12), cancella la
+   cartella "venv" e lancia: NOVA_MINMAC=13.0 bash costruisci_mac.command
+   (12.0 per la 6.9.3).
+ - Se il tuo Python e' universal2 (quello di python.org lo e'), il programma
+   funziona sia su Mac Apple Silicon sia Intel. Altrimenti viene fatto solo
+   per il tuo Mac. Per forzare: FORZA_ARCH=arm64 bash costruisci_mac.command
+ - Il programma non e' "notarizzato" da Apple (costa 99 $/anno): per questo
+   compare l'avviso alla prima apertura. Non e' un difetto del programma.
+ - Per cambiare versione: aggiorna VERSIONE in costruisci_mac.command,
+   NOVAstitch_mac.spec e info_app.py.
+ - Se qualcosa va storto, copiami gli ultimi messaggi del Terminale.

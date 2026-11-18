@@ -1,0 +1,87 @@
+﻿NOVAstitch - LICENZA D'USO E DI DISTRIBUZIONE
+Versione 1.0 - 2026
+
+Copyright (c) 2026 Poletti Centro Cucito, Clusone (BG), Italia.
+Contatti: federico@poletticentrocucito.it
+
+Tutti i diritti sono riservati, salvo quelli concessi espressamente da questa
+licenza. "Programma" indica NOVAstitch (programma, installer, manuale, icone e
+file di lingua) nella forma in cui è pubblicato da Poletti Centro Cucito.
+"Tu" indica chi usa o distribuisce il Programma.
+
+Installando o usando il Programma accetti queste condizioni.
+
+1. USO
+Puoi installare e usare il Programma su quanti computer vuoi, per qualsiasi
+scopo, comprese le tue attività professionali e commerciali (per esempio per
+vedere e convertire i ricami dei tuoi clienti). Non è dovuto alcun pagamento.
+
+2. DISTRIBUZIONE
+Puoi distribuire il Programma ad altri, gratuitamente, a queste condizioni:
+  a) viene distribuito completo e senza modifiche, esattamente come lo ha
+     pubblicato Poletti Centro Cucito, con questa licenza, la finestra
+     Informazioni, il manuale e i crediti intatti;
+  b) non viene chiesto alcun compenso per il Programma: non puoi venderlo,
+     noleggiarlo, concederlo in licenza a pagamento, né farlo pagare come voce
+     separata o come costo di installazione o assistenza legato al Programma.
+     Puoi invece regalarlo, anche ai tuoi clienti e insieme ai tuoi prodotti o
+     servizi;
+  c) non viene presentato come un tuo prodotto, né in modo da far credere che
+     sia sviluppato, approvato o garantito da te o da altri;
+  d) chi lo riceve riceve anche questa licenza.
+
+3. VIETATO MODIFICARE
+Senza autorizzazione scritta di Poletti Centro Cucito non puoi:
+  - modificare, adattare o tradurre il Programma, compresi i file di lingua, il
+    manuale e le icone;
+  - creare versioni derivate o usare parti del Programma in altri programmi;
+  - togliere o alterare nome, logo, crediti, avvisi di copyright e di licenza;
+  - ripacchettare il Programma o distribuirlo in una forma diversa da quella
+    originale;
+  - decompilare o disassemblare il Programma, salvo nei limiti in cui la legge
+    non consente di vietarlo (per esempio per ottenere l'interoperabilità).
+Se ti serve una traduzione o una modifica, scrivici: se è utile la inseriremo
+nella versione ufficiale.
+
+4. NOME E LOGO
+"NOVAstitch", il logo e l'icona sono segni di Poletti Centro Cucito. Questa
+licenza non ti dà il diritto di usarli, se non per indicare il Programma
+originale.
+
+5. COMPONENTI DI TERZI
+Il Programma contiene componenti di altri autori (tra cui Qt tramite PySide6,
+pyembroidery e Python) che restano soggetti alle loro licenze. I testi di
+queste licenze e le indicazioni per ottenere il codice sorgente di Qt sono
+nella cartella "licenze" del Programma. Nulla in questa licenza limita i
+diritti che quelle licenze ti danno su quei componenti: per esempio il diritto
+di sostituire le librerie Qt con una tua versione compatibile e di analizzare
+il Programma nei limiti necessari a farlo.
+
+6. FILE DI RICAMO E RESPONSABILITÀ DELL'UTENTE
+Il Programma legge e converte file di ricamo. I file originali non vengono
+modificati, ma sei tu a dover controllare i file convertiti prima di usarli in
+produzione. I nomi dei formati, dei marchi e delle macchine citati
+appartengono ai rispettivi proprietari; il Programma non è affiliato a nessuno
+di essi.
+
+7. NESSUNA GARANZIA
+Il Programma è fornito "così com'è", senza garanzie di alcun tipo, espresse o
+implicite, comprese quelle di commerciabilità, di idoneità a uno scopo
+particolare e di assenza di errori. Nella misura massima consentita dalla
+legge, Poletti Centro Cucito non risponde di danni diretti o indiretti, perdita
+di dati o di materiale, fermi macchina o mancati guadagni derivanti dall'uso
+del Programma. Questo non esclude né limita le responsabilità che per legge non
+possono essere escluse o limitate.
+
+8. DURATA
+La licenza dura finché ne rispetti le condizioni. Se le violi cessa
+automaticamente e devi smettere di usare e distribuire il Programma. Puoi
+rinunciarvi in ogni momento disinstallando il Programma.
+
+9. LEGGE APPLICABILE
+Si applica la legge italiana. Per le controversie è competente il Foro di
+Bergamo, salvo le norme inderogabili a tutela del consumatore.
+
+10. LINGUA
+Questa licenza è scritta in italiano e in inglese (file LICENSE_en.txt). In
+caso di differenze prevale il testo italiano.

@@ -1,0 +1,85 @@
+﻿NOVAstitch - LICENSE FOR USE AND DISTRIBUTION
+Version 1.0 - 2026
+
+Copyright (c) 2026 Poletti Centro Cucito, Clusone (BG), Italy.
+Contact: federico@poletticentrocucito.it
+
+All rights are reserved, except those expressly granted by this license.
+"Program" means NOVAstitch (the program, installer, manual, icons and language
+files) in the form published by Poletti Centro Cucito. "You" means anyone who
+uses or distributes the Program.
+
+By installing or using the Program you accept these terms.
+
+1. USE
+You may install and use the Program on as many computers as you like, for any
+purpose, including your professional and commercial activities (for example to
+view and convert your customers' embroidery files). No payment is due.
+
+2. DISTRIBUTION
+You may distribute the Program to others, free of charge, under these
+conditions:
+  a) it is distributed complete and unmodified, exactly as published by
+     Poletti Centro Cucito, with this license, the About window, the manual and
+     the credits intact;
+  b) no fee is charged for the Program: you may not sell it, rent it, license
+     it for a fee, or charge for it as a separate item or as an installation or
+     support fee tied to the Program. You may however give it away, including
+     to your customers and together with your own products or services;
+  c) it is not presented as your own product, nor in a way that suggests it was
+     developed, approved or guaranteed by you or by anyone else;
+  d) whoever receives it also receives this license.
+
+3. NO MODIFICATIONS
+Without written permission from Poletti Centro Cucito you may not:
+  - modify, adapt or translate the Program, including its language files, the
+    manual and the icons;
+  - create derivative works or use parts of the Program in other programs;
+  - remove or alter the name, logo, credits, copyright and license notices;
+  - repackage the Program or distribute it in a form different from the
+    original;
+  - decompile or disassemble the Program, except to the extent the law does not
+    allow this to be prohibited (for example to obtain interoperability).
+If you need a translation or a change, write to us: if it is useful we will
+include it in the official version.
+
+4. NAME AND LOGO
+"NOVAstitch", the logo and the icon are marks of Poletti Centro Cucito. This
+license gives you no right to use them, except to refer to the original
+Program.
+
+5. THIRD-PARTY COMPONENTS
+The Program contains components by other authors (including Qt through PySide6,
+pyembroidery and Python) which remain subject to their own licenses. The texts
+of these licenses and the instructions to obtain the source code of Qt are in
+the Program's "licenze" folder. Nothing in this license limits the rights that
+those licenses give you over those components: for example the right to
+replace the Qt libraries with your own compatible build and to analyze the
+Program to the extent necessary to do so.
+
+6. EMBROIDERY FILES AND USER RESPONSIBILITY
+The Program reads and converts embroidery files. Original files are not
+modified, but you are responsible for checking converted files before using
+them in production. The names of formats, brands and machines mentioned belong
+to their respective owners; the Program is not affiliated with any of them.
+
+7. NO WARRANTY
+The Program is provided "as is", without warranties of any kind, express or
+implied, including merchantability, fitness for a particular purpose and
+absence of errors. To the maximum extent permitted by law, Poletti Centro
+Cucito is not liable for direct or indirect damages, loss of data or material,
+machine downtime or lost profits arising from the use of the Program. This does
+not exclude or limit any liability that cannot be excluded or limited by law.
+
+8. TERM
+This license lasts as long as you comply with its terms. If you breach them it
+ends automatically and you must stop using and distributing the Program. You
+may give it up at any time by uninstalling the Program.
+
+9. GOVERNING LAW
+Italian law applies. Disputes are subject to the courts of Bergamo, without
+prejudice to mandatory consumer protection rules.
+
+10. LANGUAGE
+This license is written in Italian and English (file LICENZA_it.txt). In case
+of differences the Italian text prevails.

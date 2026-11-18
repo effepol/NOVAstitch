@@ -1,0 +1,3 @@
+# Ambiente di NOVAstitch (versioni provate insieme)
+PySide6-Essentials==6.12.0
+pyembroidery==1.5.1

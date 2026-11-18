@@ -1,0 +1,57 @@
+﻿NOVAstitch - come ricreare l'ambiente da zero (Windows)
+=======================================================
+
+PERCHE' SERVE UN AMBIENTE (venv)
+  PySide6 e pyembroidery sono installati solo dentro la cartella "venv".
+  Se lanci "python app.py" fuori dal venv (per esempio da PowerShell senza
+  averlo attivato) esce l'errore "No module named PySide6". I due file .bat
+  qui sotto usano sempre il Python del venv: non devi attivare niente.
+
+PRIMA DI COMINCIARE
+  1. Estrai questo zip in una cartella NUOVA e semplice, per esempio
+     C:\NOVAstitch  (evita le cartelle sincronizzate con OneDrive).
+  2. Cancella la vecchia cartella "venv" del vecchio progetto.
+     Prima salva da parte l'eventuale icona.png originale.
+  3. Serve Python 3.13 (quello gia' installato va bene). Controllo: apri cmd
+     e scrivi  python --version
+     Se non c'e', installalo da python.org e spunta "Add python.exe to PATH".
+
+CREARE L'AMBIENTE (una volta sola)
+  Doppio clic su  installa_ambiente.bat
+  Aspetta la scritta FATTO (scarica circa 200 MB, ci vuole qualche minuto).
+
+AVVIARE IL PROGRAMMA
+  Doppio clic su  avvia_NOVAstitch.bat
+  Oppure, da una cartella specifica:
+     avvia_NOVAstitch.bat "C:\percorso\della\cartella"
+
+SE I FILE .BAT NON FUNZIONANO: A MANO
+  Apri cmd nella cartella del progetto (scrivi cmd nella barra dell'indirizzo)
+  e lancia una riga alla volta:
+     python -m venv venv
+     venv\Scripts\python.exe -m pip install -r requirements.txt
+     venv\Scripts\python.exe app.py
+
+COSE DA SAPERE
+  - Non spostare e non rinominare la cartella dopo aver creato il venv: dentro
+    ci sono i percorsi assoluti. Se la sposti, cancella "venv" e rilancia
+    installa_ambiente.bat.
+  - Pacchetti installati (vedi requirements.txt):
+       PySide6-Essentials 6.12.0   (l'interfaccia grafica)
+       pyembroidery 1.5.1          (lettura e scrittura dei ricami)
+  - Le anteprime si salvano in  C:\Users\<tuo nome>\.novastitch\cache
+    (il pulsante "Svuota cache" le cancella).
+  - La lingua scelta e' salvata dal programma. Per aggiungere una lingua:
+    copia risorse\lingue\en.json in fr.json (per esempio), cambia "_nome"
+    e traduci i valori. Salva in UTF-8.
+  - Il manuale e' risorse\manuale.pdf (un solo file, italiano e inglese).
+  - Icone per l'impacchettamento: risorse\icona.ico (Windows) e
+    risorse\icona.icns (Mac). risorse\icona.png e' ricavata dall'icns:
+    sostituiscila con l'originale se ce l'hai.
+
+PER COSTRUIRE L'INSTALLER (Windows)
+  Vedi COSTRUIRE_WINDOWS.txt.
+
+LICENZA
+  LICENZA_it.txt (italiano, prevale) e LICENSE_en.txt (inglese).
+  I testi dei componenti di terzi sono nella cartella "licenze".

@@ -1,0 +1,3 @@
+# Ambiente per COSTRUIRE l'installer (include quello del programma)
+-r requirements.txt
+pyinstaller==6.22.3

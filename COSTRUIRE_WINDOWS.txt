@@ -1,0 +1,55 @@
+﻿NOVAstitch - come costruire l'installer per Windows
+===================================================
+
+COSA SERVE (una volta sola)
+  1. L'ambiente Python gia' creato (installa_ambiente.bat, vedi LEGGIMI.txt).
+  2. Inno Setup (versione 6 o 7), gratuito: jrsoftware.org. Installazione
+     standard, senza cambiare nulla.
+
+COSTRUIRE
+  Doppio clic su  costruisci_windows.bat
+  Fa tre cose, in ordine:
+    [1/3] installa PyInstaller nell'ambiente (versione fissata);
+    [2/3] costruisce il programma nella cartella  dist\NOVAstitch ;
+    [3/3] crea l'installer con Inno Setup.
+  Alla fine trovi l'installer in:
+    installer_output\NOVAstitch-Setup-0.1.exe
+  Questo e' l'unico file da distribuire.
+  Se Inno Setup non c'e', il programma resta pronto in dist\NOVAstitch e il
+  file .bat te lo dice: installalo e rilancia.
+
+PROVARE PRIMA DI DISTRIBUIRE
+  Installa il file su un altro PC (o su una macchina virtuale) che NON ha
+  Python, e controlla: avvio, anteprime, menu Lingua, menu Manuale,
+  ? > Informazioni > Licenza completa, conversione, Crea PDF, disinstallazione.
+  Se funziona solo sul PC dove lo hai costruito, qualcosa non e' stato
+  incluso: scrivimi l'errore.
+
+COSA FA L'INSTALLER
+  - Mostra la licenza (italiano o inglese) e chiede di accettarla.
+  - Installa per l'utente corrente, senza password di amministratore.
+  - Mette il programma nel menu Start e, a scelta, sul Desktop.
+  - Copia nella cartella del programma le licenze (LICENZA_it.txt,
+    LICENSE_en.txt e la cartella "licenze"): sono obbligatorie.
+  - Alla disinstallazione toglie anche la cache delle anteprime
+    (C:\Users\<nome>\.novastitch) e la lingua salvata.
+
+AVVISI CHE VEDRA' L'UTENTE
+  Windows SmartScreen: "Windows ha protetto il PC". Succede perche' il
+  programma non ha una firma digitale. Si procede con
+  "Maggiori informazioni" > "Esegui comunque" (e' scritto anche nel manuale).
+  Antivirus: i programmi fatti con PyInstaller a volte vengono segnalati per
+  errore. Gia' fatto per ridurre il rischio: cartella invece di file unico,
+  niente UPX, dati di versione nell'exe. Se una segnalazione arriva lo stesso,
+  invia l'installer come "falso positivo" al sito dell'antivirus; per Windows
+  Defender si fa dal sito Microsoft Security Intelligence.
+
+NUOVA VERSIONE
+  Cambia il numero in tre posti: info_app.py (VERSIONE), version_info.txt
+  (le due righe con 0, 1, 0, 0 e le due stringhe 0.1.0.0) e installer.iss
+  (AppVersion). Poi rilancia costruisci_windows.bat.
+  NON cambiare mai AppId in installer.iss: serve a Windows per riconoscere
+  e aggiornare una versione gia' installata.
+
+SE QUALCOSA SI BLOCCA
+  Cancella le cartelle  build  e  dist  e rilancia costruisci_windows.bat.

@@ -1,0 +1,26 @@
+NOVAstitch - Mac
+================
+
+INSTALLARE / INSTALL
+  Trascina NOVAstitch nella cartella Applicazioni.
+  Drag NOVAstitch onto the Applications folder.
+
+PRIMA APERTURA / FIRST LAUNCH
+  NOVAstitch e' gratuito e non e' firmato a pagamento con Apple, quindi
+  la prima volta macOS potrebbe dire che non puo' verificarlo.
+  Come procedere (si fa UNA volta sola):
+   1. Prova ad aprire NOVAstitch (doppio clic). Quando compare l'avviso, premi "Fine" / "Done".
+   2. Apri Impostazioni di Sistema > Privacy e sicurezza.
+   3. Scorri in basso fino a "Sicurezza": accanto a NOVAstitch premi "Apri comunque".
+   4. Inserisci la password del Mac e conferma con "Apri".
+  (Il pulsante compare entro circa un'ora dal primo tentativo.)
+
+  NOVAstitch is free and not signed with a paid Apple certificate, so the first
+  time macOS may say it cannot verify it. To open it (only once):
+   1. Try to open NOVAstitch (double-click). When the warning appears, click "Done".
+   2. Open System Settings > Privacy & Security.
+   3. Scroll to "Security": next to NOVAstitch click "Open Anyway".
+   4. Enter your Mac password and confirm with "Open".
+  (The button appears for about an hour after the first attempt.)
+
+(c) 2026 Poletti Centro Cucito - federico@poletticentrocucito.it
